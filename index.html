@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore Countries</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Add your Font Awesome CSS here -->
+  </head>
+  <body class="dark">
+    <div class="container">
+      <h1>EXPLORE THE WORLD</h1>
+      <button class="toggle"><i class="far fa-moon moon"></i>Dark Mode</button>
+    </div>
+    <div class="container">
+      <div class="form-control">
+        <input type="text" placeholder="Search country here" class="search" />
+        <i class="fas fa-search"></i>
+      </div>
+      <div class="dropDownCon">
+        <h2>Select Region</h2>
+        <select class="dropDown" style="background-color: grey">
+          <option value="All">All</option>
+          <option value="Africa">Africa</option>
+          <option value="Americas">Americas</option>
+          <option value="Asia">Asia</option>
+          <option value="Europe">Europe</option>
+          <option value="Oceania">Oceania</option>
+        </select>
+      </div>
+    </div>
+    <div class="countries"></div>
+    <div class="countryModal">
+      <button class="back">Back</button>
+      <div class="modal">
+        <!-- The modal content goes here -->
+      </div>
+    </div>
+    <div class="pagination"></div>
+    <div class="footer">
+      <h3>&copy; soleil00</h3>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
